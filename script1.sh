@@ -7,7 +7,7 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 # Variables
-WINDOWS_ISO_URL="https://example.com/path-to-windows-server-iso.iso"  # Replace with actual URL
+WINDOWS_ISO_URL="https://drive.massgrave.dev/en-us_windows_server_2022_updated_aug_2024_x64_dvd_17b2bb17.iso"  # Replace with actual URL
 WINDOWS_ISO="/tmp/windows.iso"
 DISK_IMAGE="/var/lib/libvirt/images/windows-disk.qcow2"
 DISK_SIZE="40G"  # Adjust disk size as needed
